@@ -5,4 +5,6 @@ Install a VM in Azure Dashboard<br>
 Install jenkins<br>
 Create a new pipeline project with the maven pipeline....check for the jar file for confirmation<br>
 Install docker<br>
-Using docker image deploy the Java app<br>
+Push the image into dockerhub<br>
+Launch another VM<br>
+Pull the docker image from dockerhub<br>
