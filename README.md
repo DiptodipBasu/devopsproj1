@@ -14,18 +14,18 @@ This project demonstrates a full DevOps pipeline:<br>
 <h3>Steps</h3>
 1.	Create the Main VM in Azure<br>
 &nbsp;&nbsp;&nbsp;•	OS: Ububntu 22.04<br>
-•	Open Ports: 22(SSH), 8080(Jenkins)<br>
+&nbsp;&nbsp;&nbsp;•	Open Ports: 22(SSH), 8080(Jenkins)<br>
 2.	Install  and Setup Jenkins with Maven Plugin <br>
 3.	Create Jenkins Pipeline<br>
-•	Source: GitHub<br>
-•	Build: Maven<br>
-•	Add Docker build Script<br>
-•	Confirm JAR file creation<br>
+&nbsp;&nbsp;&nbsp;•	Source: GitHub<br>
+&nbsp;&nbsp;&nbsp;•	Build: Maven<br>
+&nbsp;&nbsp;&nbsp;•	Add Docker build Script<br>
+&nbsp;&nbsp;&nbsp;•	Confirm JAR file creation<br>
 4.	Install Docker on the Main VM<br>
 5.	Push Docker image on docker hub<br>
 6.	Launch a new VM <br>
-•	OS: Ububntu 22.04<br>
-•	Open Ports: 22(SSH), 8080(View Website), 80(http)<br>
+&nbsp;&nbsp;&nbsp;•	OS: Ububntu 22.04<br>
+&nbsp;&nbsp;&nbsp;•	Open Ports: 22(SSH), 8080(View Website), 80(http)<br>
 7.	Pull and Run Docker Image<br>
 <h2>Outcome:</h2>
 The application runs successfully on a second VM via a pulled Docker image.
