@@ -13,7 +13,7 @@ This project demonstrates a full DevOps pipeline:<br>
 •	Maven for Java build<br>
 <h3>Steps</h3>
 1.	Create the Main VM in Azure<br>
-&nbsp;•	OS: Ububntu 22.04<br>
+&nbsp;&nbsp;&nbsp;•	OS: Ububntu 22.04<br>
 •	Open Ports: 22(SSH), 8080(Jenkins)<br>
 2.	Install  and Setup Jenkins with Maven Plugin <br>
 3.	Create Jenkins Pipeline<br>
